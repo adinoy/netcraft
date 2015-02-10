@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+
+		<h1>Some awesome form!</h1>
+
+		<form action="test.html" method="GET" target="_blank">
+			
+			<fieldset>
+				<legend>User Data</legend>
+					<div>
+						<label for="username">Username</label>
+						<input type="text" name="username" id="username" 
+							placeholder="User name" value="">
+					</div>
+					<div>
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" 
+							placeholder="Password" value="">
+					</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>User Commetn</legend>	
+					<div>	
+						<label for="comment"></label>
+						<textarea name="comment" id="comment" placeholder="Your comment here" 
+								cols="30" rows="10"></textarea>
+					</div>
+			</fieldset>
+				
+				<div>
+					<input type="checkbox" id="accept" name="accept">	
+					<label for="accept">Send my data to Google</label>
+				</div>
+
+				<div>
+					<select name="selecty" id="selecty" multiple="2">
+						<option value="1">One</option>
+						<option value="2" selected="">Two</option>
+						<option value="3">Three</option>
+					</select>
+				</div>
+			
+				<div>
+						<input type="radio" id="radio1" name="radio"
+							value="Choose1">	
+						<label for="radio1">Choose me 1</label>
+						<input type="radio" id="radio2" name="radio"
+							value="Choose2">	
+						<label for="radio2">Choose me 2</label>
+						<input type="radio" id="radio3" name="radio"
+							value="Choose3">	
+						<label for="radio3">Choose me 3</label>
+				</div>
+
+			<input type="color" name="" id="">
+			<button type="submit"><i>Submit</i></button>
+			
+		</form>
+	</body>
+</HTML>
+
