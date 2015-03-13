@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	margin: 0;
+}
+.wrap {
+	background-color: lightyellow;
+	width:100%;
+	min-width: 360px;
+	max-width: 960px; 
+	margin: 0 auto;
+	position: relative;
+	overflow: auto;
+	z-index: 10;
+}
+.wrap > div {
+	background-color: lightgreen;
+	width: 150px;
+	height: 150px;
+	border: 1px solid red;
+	font-size: 1.4em;
+	text-align: center;
+	line-height: 150px;
+	margin:20px;
+	/*float: left;*/
+}
+.wrap .second {
+	background-color: lightblue;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 20;
+}
+.wrap .third {
+	background-color: deepbluesky;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	z-index: 15;
+}
+
+/*
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+*/

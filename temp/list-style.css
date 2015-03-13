@@ -1,0 +1,27 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+body{
+	padding:50px;
+}
+ul {
+	background-color: lightgreen;
+	font-size: 1.6em;
+	list-style: square inside; 
+} 	
+li {
+	background: url(http://placehold.it/50x50) lightgrey no-repeat 10px center;
+	line-height: 80px;
+	padding-left: 100px;
+	border-bottom: 1px solid grey;
+}
+li:before {
+	content: "|";
+	position: absolute;
+}

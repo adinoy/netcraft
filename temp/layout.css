@@ -1,0 +1,37 @@
+
+header {
+	background-color: lightgreen;
+	height: 100px; 
+	overflow: auto;
+}
+aside {
+	background-color: lightblue;
+	float: left;
+	width: 200px;
+}
+.main {
+	background-color: sandybrown;
+	margin-left: 200px;
+	margin-right: 200px;
+	overflow: auto;
+}
+.other {
+	background-color: lightblue;
+	float: right;
+	width: 200px;
+}
+footer {
+	background-color: lightgrey; 
+	height: 100px; 
+	overflow: auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}

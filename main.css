@@ -1,0 +1,9 @@
+a:before {
+	content:"(";
+}
+a:after {
+	content: ")";
+}
+a[href$=".pdf"]:after {
+	content: url(http://icons.iconarchive.com/icons/graphicloads/filetype/256/pdf-icon.png);
+}

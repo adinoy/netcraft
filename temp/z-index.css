@@ -1,0 +1,101 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 50px;
+}
+
+.wrap {
+	border: 2px solid #ccc;
+	background: seashell;
+	width: 480px;
+	height: 400px;
+	padding: 10px;
+	margin: 0 auto;
+	position: relative;
+	overflow: auto;
+}
+
+.wrap div {
+	border: 2px dashed #999;
+	font-size: 1.4rem;
+	padding: 10px;
+}
+
+.box1,
+.box2 {
+	background: lightgreen;
+	height: 100px;
+	opacity: 0.6;
+}
+
+.box1 {
+	margin-bottom: 130px;
+	position: relative;
+	z-index: 100;
+}
+
+.box2 {
+	position: relative;
+	top: 50px;
+}
+
+.box3 {
+	background: pink;
+	position: absolute;
+	position: absolute;
+	top: 30px;
+	right: 80px;
+	left: 155px;
+	bottom: 20px;
+	z-index: 40;
+}
+
+.box4,
+.box5 {
+	background: lightyellow;
+	position: relative;
+	height: 100px;
+	opacity: 0.6;
+}
+
+.box4 {
+	z-index: 50;
+}
+
+.box5 {
+
+}
+
+.box6 {
+	background: skyblue;
+	opacity: 0.7;
+	height: 300px;
+	position: absolute;
+	top: 27px;
+	bottom: 30px;
+	right: 40px;
+}
+
+.box7 {
+	background: lightsalmon;
+	height: 130px;
+	position: absolute;
+	top: 135px;
+	left: 25px;
+	right: 30px;
+}
+
+.box8 {
+	background: red;
+	width: 100%;
+	z-index: 1000;
+}
+

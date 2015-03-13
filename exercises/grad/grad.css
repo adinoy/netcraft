@@ -1,0 +1,20 @@
+
+body {
+	background-color: grey;
+	}
+table {
+	border-spacing: 0px;
+}
+td {
+	height:50px;
+	width:50px;
+}
+td:first-child {
+	background-color: black;
+}
+td:nth-child(2) {
+	background-color: brown;
+}
+td:last-child {
+	background-color: white;
+}

@@ -1,0 +1,10 @@
+td {
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+}
+td {
+	height: 50px;
+	width: 50px; 
+	background: #000;
+}
